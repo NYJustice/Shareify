@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background-color: rgb(32, 37, 41);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+.odd-item,.even-item {
+  list-style: none;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.even-item {
+  background-color: hsl(0, 0%, 96%, 0.113);
+}
+
+.odd-item {
+  list-style: none;
+}
+
+#app-name {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  font-size: xx-large;
+}
+
+.artist-banner {
+  width: 100vw;
+}
+
+nav {
+  background-color: rgb(32, 37, 41);
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  font-size: large;
+  padding: .2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  margin: 0;
+  color: rgb(225, 224, 224);
+}
+
+.main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+}
+
+#track-list {
+  width: 100%-1rem;
+  align-items: center;
+  margin: 0;
+  padding: .5rem;
+}
+
+#album-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%-1rem;
+  align-items: center;
+  margin: 0;
+  padding: .5rem;
+}
+
+img {
+  width: 100%;
+}
+
+#searchbar {
+  display: flex;
+  margin: auto 1rem;
+}
